@@ -8,7 +8,7 @@ function messageReceiver(request){
         case "algo":
             break;
         case "imprimir":
-            console.log("contenido: "+ request.payload);
+            console.log(request.payload)//console.log("contenido: "+ request.payload);
             break;
     }
 }

@@ -21,40 +21,9 @@ input[type="text"] {
     height: 30px;
 }
 
-button{
-    background-color: #adff4d;
-    border-radius: 5px;
-    margin-top: 20px;
-    height: 30px;
-    width: 80%;
-    font-size: 1.5em;
-    font-style: bold;
-    color: white;
-}
-
-button:hover{
-    height: 34px;
-    width: 81%;
-    background-color:green;
-}
-
-#shower{
-    width: 30%;
-    border-radius: 10px;
-}
-
 .labelField{
     font-size: 2em;
     padding: 0;
-}
-
-#showerFields{
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
 
 p{
@@ -62,8 +31,6 @@ p{
     color: red;
 }
 
-textarea{
-    height: 70px;
-    width: 98%;
-    text-align: left;
+label{
+    font-size: 2em;
 }
